@@ -4,7 +4,7 @@ BUILD_HOME := $(shell cd $(BUILD_HOME); pwd)
 $(info Using BUILD_HOME=${BUILD_HOME})
 
 # Compilers
-CXX = g++
+CXX = clang++
 LD = ${CXX}
 AR = ar
 
