@@ -80,8 +80,7 @@ uint32_t DummyClient::getMaxReplySize()
   return 0;
 }
 
+}
+}
+
 UHAL_REGISTER_EXTERNAL_CLIENT(uhal::tests::DummyClient, "__test__", "A dummy client description")
-
-}
-}
-
